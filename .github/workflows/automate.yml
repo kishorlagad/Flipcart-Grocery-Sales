@@ -12,16 +12,15 @@ Resources:
     Properties:
       Name: Sales_Glue_Job
       Description: Ingests data from s3 and after doing transformation it writes the data as a parquet file to the data warehouse
-      ExecutionClass: FLEX
       GlueVersion: 4.0
       MaxRetries: 0
       NumberOfWorkers: 6
-      Role: arn:aws:iam::278557494232:role/LabRole
+      Role: arn:aws:iam::845105067966:role/LabRole
       Timeout: 90
       WorkerType: G.1X
       Command:
         Name: glueetl
-        ScriptLocation: s3://finalprojectinput/github/sales/Sales.py
+        ScriptLocation: s3://gitcft/sales/Sales.py
       DefaultArguments:
         "--job-bookmark-option": "job-bookmark-enable"
 
@@ -30,16 +29,15 @@ Resources:
     Properties:
       Name: Product_Glue_Job
       Description: Ingests data from RDS and after doing transformation it writes the data as a parquet file to the data warehouse
-      ExecutionClass: FLEX
       GlueVersion: 4.0
       MaxRetries: 0
       NumberOfWorkers: 6
-      Role: arn:aws:iam::278557494232:role/LabRole
+      Role: arn:aws:iam::845105067966:role/LabRole
       Timeout: 90
       WorkerType: G.1X
       Command:
         Name: glueetl
-        ScriptLocation: s3://finalprojectinput/github/products/Products_Glue_Job.py
+        ScriptLocation: s3://gitcft/product/Products_Glue_Job.py
       DefaultArguments:
         "--job-bookmark-option": "job-bookmark-enable"
   
@@ -47,7 +45,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: Sales-CFT-Trigger
-      CodeUri: s3://finalprojectinput/lambda_script_for_sales_cft/trigger.zip
+      CodeUri: s3://gitcft/lambdascript/lambda_function.zip
       Handler: lambda_function.lambda_handler
       Runtime: python3.8
-      Role: arn:aws:iam::278557494232:role/LabRole
+      Role: arn:aws:iam::845105067966:role/LabRole
