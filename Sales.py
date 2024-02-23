@@ -79,7 +79,7 @@ SQLQuery_node1707466387997 = sparkSqlQuery(
 
 # Script generated for node Amazon S3
 AmazonS3_node1707466390637 = glueContext.getSink(
-    path="s3://gitcft/sales/",
+    path="s3://gitcft/final/sales/",
     connection_type="s3",
     updateBehavior="UPDATE_IN_DATABASE",  # Using Glue Job Bookmark for update behavior
     partitionKeys=[],
