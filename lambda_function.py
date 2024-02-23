@@ -18,7 +18,7 @@ def lambda_handler(event, context):
     sns_client = boto3.client('sns')
 
     glue_job_name = 'Sales_Glue_Job'
-    sns_topic_arn = 'arn:aws:sns:us-east-1:278557494232:GlueJobNotification'
+    sns_topic_arn = 'arn:aws:sns:us-east-1:845105067966:GlueJobNotification'
 
     try:
         response = glue_client.start_job_run(JobName=glue_job_name)
