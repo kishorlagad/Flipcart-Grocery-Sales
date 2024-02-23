@@ -60,7 +60,7 @@ ChangeSchema_node1707477382758 = ApplyMapping.apply(
 
 # Script generated for node Amazon S3
 AmazonS3_node1708110424343 = glueContext.getSink(
-    path="s3://gitcft/product/",
+    path="s3://gitcft/final/product/",
     connection_type="s3",
     updateBehavior="LOG",
     partitionKeys=[],
