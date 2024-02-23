@@ -31,7 +31,7 @@ AmazonS3_node1707466350365 = glueContext.create_dynamic_frame.from_options(
     },
     connection_type="s3",
     format="csv",
-    connection_options={"paths": ["s3://flipkartproject/Flipkart Data/data/"], "recurse": True},
+    connection_options={"paths": ["arn:aws:s3:::load-increment"], "recurse": True},
     transformation_ctx="AmazonS3_node1707466350365",
 )
 
