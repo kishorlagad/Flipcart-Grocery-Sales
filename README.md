@@ -12,6 +12,7 @@ AWS SNS: Implemented fot notification of Glue Job runs.
 Tableau: Visualized insights through an interactive dashboard, providing a user-friendly interface.
 
 ## Data Pipeline Workflow
+
 ![image](https://github.com/kishorlagad/Flipcart-Grocery-Sales/assets/92357062/83b489c7-4918-491a-8b5b-282f808ba60e)
 
 ## Insights and Achievements
@@ -21,6 +22,7 @@ Tableau: Visualized insights through an interactive dashboard, providing a user-
 
 ## How to Use
 Clone Repository:
+https://github.com/kishorlagad/Flipcart-Grocery-Sales.git
 
 
 ## Deployment Steps
