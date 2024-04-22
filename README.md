@@ -21,12 +21,13 @@ In this comprehensive Big Data project, we delve into the Flipkart Grocery trans
 * 🏆 Brand Performance Evaluation: Evaluated brand performance to inform partnerships, marketing strategies, and inventory management.
 
 ## How to Use
-Clone Repository:
+* Clone Repository:
+  
 https://github.com/kishorlagad/Flipcart-Grocery-Sales.git
 
 
 ## Deployment Steps
-Prerequisites:
+### Prerequisites:
 
 An AWS account with necessary permissions. AWS CLI configured and credentials set.
 
