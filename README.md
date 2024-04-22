@@ -16,9 +16,11 @@ Tableau: Visualized insights through an interactive dashboard, providing a user-
 ![image](https://github.com/kishorlagad/Flipcart-Grocery-Sales/assets/92357062/83b489c7-4918-491a-8b5b-282f808ba60e)
 
 ## Insights and Achievements
-. 🚀 Best-Selling Items: Identified top-performing products for strategic decision-making.
-. 💸 Sales Patterns and Discount Effects: Unveiled and measured the impact of discounts on sales, guiding pricing strategies.
-. 🏆 Brand Performance Evaluation: Evaluated brand performance to inform partnerships, marketing strategies, and inventory management.
+🚀 Best-Selling Items: Identified top-performing products for strategic decision-making.
+
+💸 Sales Patterns and Discount Effects: Unveiled and measured the impact of discounts on sales, guiding pricing strategies.
+
+🏆 Brand Performance Evaluation: Evaluated brand performance to inform partnerships, marketing strategies, and inventory management.
 
 ## How to Use
 Clone Repository:
